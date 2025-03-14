@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
+    <style>
+        body {
+            background-color: #d7fdf5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .login-card {
+            max-width: 400px;
+            width: 100%;
+        }
+        .footer {
+            background-color: teal;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="ui raised very padded text container segment login-card">
+        <h2 class="ui teal header center aligned">Login</h2>
+        <form class="ui form">
+            <div class="field">
+                <label>Username atau Email</label>
+                <input type="text" name="username" placeholder="Masukkan username atau email" required>
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Masukkan password" required>
+            </div>
+            <a href="belajar.html" class="ui primary button fluid">Login</a>
+        </form>
+        <div class="ui divider"></div>
+        <div class="ui small message center aligned">
+            <p>Belum punya akun? <a href="#">Daftar di sini</a></p>
+            <p><a href="#">Lupa password?</a></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © Arsyil Fiqih Seftiana | 243307033 | Powered by Semantic UI
+    </div>
+
+</body>
+</html>

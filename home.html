@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .container-content {
+            flex: 1;
+        }
+        .footer {
+            background-color: teal;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .footer .column p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu Bar -->
+    <div class="ui menu">
+        <div class="item">
+            <div class="ui icon input">
+                <input type="text" placeholder="Search...">
+                <i class="search icon"></i>
+            </div>
+        </div>
+        <div class="right item">
+            <div class="ui action input">
+                <input type="text" placeholder="Navigate to...">
+                <button class="ui button">Go</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid untuk Sidebar dan Konten Utama -->
+    <div class="ui stackable grid container-content">
+        <!-- Sidebar -->
+        <div class="three wide column">
+            <div class="ui vertical menu">
+                <div class="item">
+                    <div class="header">Products</div>
+                    <div class="menu">
+                        <a class="item">Enterprise</a>
+                        <a class="item">Consumer</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header">CMS Solutions</div>
+                    <div class="menu">
+                        <a class="item">Rails</a>
+                        <a class="item">Python</a>
+                        <a class="item">PHP</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header">Hosting</div>
+                    <div class="menu">
+                        <a class="item">Shared</a>
+                        <a class="item">Dedicated</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header">Support</div>
+                    <div class="menu">
+                        <a class="item">E-mail Support</a>
+                        <a class="item">FAQs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Konten Utama -->
+        <div class="thirteen wide column">
+            <div class="ui container">
+                <h2>Welcome to Our Platform!</h2>
+                <p>Kami menyediakan berbagai solusi untuk kebutuhan Anda. Jelajahi produk kami dan temukan apa yang Anda butuhkan.</p>
+
+                <h3>Featured Products:</h3>
+                <ul class="ui list">
+                    <li>Produk A - Solusi untuk perusahaan besar.</li>
+                    <li>Produk B - Ideal untuk pengguna individu.</li>
+                    <li>Produk C - Solusi CMS yang fleksibel.</li>
+                </ul>
+
+                <h3 style="margin-top: 40px;">Getting Started</h3>
+                <p>Untuk memulai, silakan ikuti langkah-langkah berikut:</p>
+                <ol class="ui ordered list">
+                    <li>Buat akun baru jika Anda belum memilikinya.</li>
+                    <li>Masuk ke akun Anda menggunakan kredensial yang telah dibuat.</li>
+                    <li>Jelajahi produk dan pilih solusi yang sesuai dengan kebutuhan Anda.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="ui stackable equal width grid container">
+            <div class="column">
+                <p><strong>Politeknik Negeri Madiun</strong></p>
+                <p>2025</p>
+            </div>
+            <div class="column">
+                <p><strong>Semester</strong></p>
+                <p>Genap</p>
+            </div>
+            <div class="column">
+                <p><strong>Prodi</strong></p>
+                <p>Teknologi Informasi</p>
+            </div>
+            <div class="column">
+                <p><strong>Arsyil Fiqih Seftiana</strong></p>
+                <p>243307033</p>
+            </div>
+            <div class="column">
+                <a href="login.html" class="ui red button">Login</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

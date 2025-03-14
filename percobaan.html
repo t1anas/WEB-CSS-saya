@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website CSS Saya</title>
+    <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container-content {
+            flex: 1;
+        }
+        .footer {
+            background-color: teal;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .footer .column p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body> 
+
+    <!-- Menu Bar -->
+    <div class="ui menu">
+        <div class="item">
+            <div class="ui icon input">
+                <input type="text" placeholder="Search...">
+                <i class="search icon"></i>
+            </div>
+        </div>
+        <div class="right item">
+            <div class="ui action input">
+                <input type="text" placeholder="Navigate to...">
+                <button class="ui button">Go</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Konten Utama -->
+    <div class="ui raised very padded text container segment">
+        <h2 class="ui header">Pemrograman HTML</h2>
+        <p> HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk membuat struktur dasar sebuah 
+            halaman web. HTML berfungsi sebagai fondasi utama dalam pengembangan situs web dengan mendefinisikan 
+            elemen-elemen seperti teks, gambar, tautan, tabel, formulir, dan berbagai komponen lainnya. Setiap elemen 
+            HTML ditulis dalam bentuk tag yang menginstruksikan browser tentang bagaimana sebuah konten harus ditampilkan 
+            kepada pengguna.</p>
+
+        <p> Dalam HTML, terdapat berbagai elemen penting seperti (head) untuk bagian kepala halaman, (body) untuk konten 
+            utama, serta (header), (nav), (section), dan (footer) untuk mengatur tata letak halaman secara lebih 
+            terstruktur. Elemen-elemen ini membantu dalam pembuatan halaman web yang lebih rapi dan mudah dipahami baik 
+            oleh pengguna maupun mesin pencari. Selain itu, HTML juga mendukung penggunaan atribut pada tag yang 
+            memungkinkan pengembang menyesuaikan tampilan dan fungsi dari elemen yang digunakan.</p>
+
+        <p> HTML sendiri bukanlah bahasa pemrograman, melainkan bahasa markup yang bekerja bersama dengan CSS 
+            (Cascading Style Sheets) untuk mengatur tampilan serta JavaScript untuk menambahkan interaktivitas. 
+            Dengan kombinasi ketiga teknologi ini, pengembang dapat menciptakan halaman web yang menarik, responsif, 
+            dan fungsional sesuai dengan kebutuhan.</p>
+
+        <p> Seiring berkembangnya teknologi, HTML terus diperbarui untuk meningkatkan kemampuannya. Versi terbaru, HTML5, 
+            memperkenalkan banyak fitur baru seperti elemen multimedia ((audio), (video)), elemen semantik 
+            ((article), (section), (aside)), serta dukungan untuk aplikasi web modern. Dengan hadirnya HTML5, 
+            pengembangan web menjadi lebih efisien dan mampu menghadirkan pengalaman pengguna yang lebih baik.</p>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="ui stackable equal width grid container">
+            <div class="column">
+                <p><strong>Politeknik Negeri Madiun</strong></p>
+                <p>2025</p>
+            </div>
+            <div class="column">
+                <p><strong>Semester</strong></p>
+                <p>Genap</p>
+            </div>
+            <div class="column">
+                <p><strong>Prodi</strong></p>
+                <p>Teknologi Informasi</p>
+            </div>
+            <div class="column">
+                <p><strong>Arsyil Fiqih Seftiana</strong></p>
+                <p>243307033</p>
+            </div>
+        </div>
+
+        <!-- Tombol Logout -->
+        <div class="ui section divider"></div>
+        <div class="ui center aligned container">
+            <a href="home.html" class="ui red button">Logout</a>
+        </div>
+    </div>
+
+</body>
+</html>
